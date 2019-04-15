@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BAE132E204A7B6C00D2969C /* DonorAndAcceptorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE132D204A7B6C00D2969C /* DonorAndAcceptorViewController.swift */; };
+		8BAE1330204A7B8100D2969C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE132F204A7B8100D2969C /* ProfileViewController.swift */; };
+		8BDC5142204116E9008D6454 /* DonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC5141204116E9008D6454 /* DonorViewController.swift */; };
+		8BDC5144204116FF008D6454 /* AcceptorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC5143204116FF008D6454 /* AcceptorViewController.swift */; };
+		8BDC51482041689A008D6454 /* DonorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC51472041689A008D6454 /* DonorCollectionViewCell.swift */; };
+		8BDC514A204168D1008D6454 /* AcceptorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC5149204168D1008D6454 /* AcceptorCollectionViewCell.swift */; };
 		8BE79DE9203E5B750069FA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE79DE8203E5B750069FA05 /* AppDelegate.swift */; };
 		8BE79DEB203E5B750069FA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE79DEA203E5B750069FA05 /* ViewController.swift */; };
 		8BE79DEE203E5B760069FA05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE79DEC203E5B760069FA05 /* Main.storyboard */; };
@@ -15,6 +21,8 @@
 		8BE79DF6203E5B760069FA05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE79DF4203E5B760069FA05 /* LaunchScreen.storyboard */; };
 		8BE79E01203E5B760069FA05 /* BloodBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE79E00203E5B760069FA05 /* BloodBankAppTests.swift */; };
 		8BE79E0C203E5B760069FA05 /* BloodBankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE79E0B203E5B760069FA05 /* BloodBankAppUITests.swift */; };
+		8BFEEC14203F21A9009BD98B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEEC13203F21A9009BD98B /* SignUpViewController.swift */; };
+		8BFEF239204AD3920032E5E4 /* details.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEF238204AD3920032E5E4 /* details.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BAE132D204A7B6C00D2969C /* DonorAndAcceptorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorAndAcceptorViewController.swift; sourceTree = "<group>"; };
+		8BAE132F204A7B8100D2969C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8BDC5141204116E9008D6454 /* DonorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorViewController.swift; sourceTree = "<group>"; };
+		8BDC5143204116FF008D6454 /* AcceptorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptorViewController.swift; sourceTree = "<group>"; };
+		8BDC51472041689A008D6454 /* DonorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BDC5149204168D1008D6454 /* AcceptorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptorCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BE79DE5203E5B750069FA05 /* BloodBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE79DE8203E5B750069FA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BE79DEA203E5B750069FA05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		8BE79E07203E5B760069FA05 /* BloodBankAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodBankAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE79E0B203E5B760069FA05 /* BloodBankAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankAppUITests.swift; sourceTree = "<group>"; };
 		8BE79E0D203E5B760069FA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFEEC13203F21A9009BD98B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
+		8BFEF238204AD3920032E5E4 /* details.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = details.json; path = ../../practiceUser/details.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,14 @@
 				8BE79DE8203E5B750069FA05 /* AppDelegate.swift */,
 				8BE79DEA203E5B750069FA05 /* ViewController.swift */,
 				8BE79DEC203E5B760069FA05 /* Main.storyboard */,
+				8BAE132F204A7B8100D2969C /* ProfileViewController.swift */,
+				8BAE132D204A7B6C00D2969C /* DonorAndAcceptorViewController.swift */,
+				8BFEEC13203F21A9009BD98B /* SignUpViewController.swift */,
+				8BDC5149204168D1008D6454 /* AcceptorCollectionViewCell.swift */,
+				8BDC51472041689A008D6454 /* DonorCollectionViewCell.swift */,
+				8BFEF238204AD3920032E5E4 /* details.json */,
+				8BDC5141204116E9008D6454 /* DonorViewController.swift */,
+				8BDC5143204116FF008D6454 /* AcceptorViewController.swift */,
 				8BE79DF2203E5B760069FA05 /* Assets.xcassets */,
 				8BE79DF4203E5B760069FA05 /* LaunchScreen.storyboard */,
 				8BE79DF7203E5B760069FA05 /* Info.plist */,
@@ -237,6 +261,7 @@
 			files = (
 				8BE79DF6203E5B760069FA05 /* LaunchScreen.storyboard in Resources */,
 				8BE79DF3203E5B760069FA05 /* Assets.xcassets in Resources */,
+				8BFEF239204AD3920032E5E4 /* details.json in Resources */,
 				8BE79DEE203E5B760069FA05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +288,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE79DEB203E5B750069FA05 /* ViewController.swift in Sources */,
+				8BDC5144204116FF008D6454 /* AcceptorViewController.swift in Sources */,
+				8BAE1330204A7B8100D2969C /* ProfileViewController.swift in Sources */,
+				8BAE132E204A7B6C00D2969C /* DonorAndAcceptorViewController.swift in Sources */,
 				8BE79DE9203E5B750069FA05 /* AppDelegate.swift in Sources */,
+				8BFEEC14203F21A9009BD98B /* SignUpViewController.swift in Sources */,
 				8BE79DF1203E5B760069FA05 /* BloodBankApp.xcdatamodeld in Sources */,
+				8BDC51482041689A008D6454 /* DonorCollectionViewCell.swift in Sources */,
+				8BDC514A204168D1008D6454 /* AcceptorCollectionViewCell.swift in Sources */,
+				8BDC5142204116E9008D6454 /* DonorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +541,7 @@
 				8BE79E12203E5B760069FA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BE79E13203E5B760069FA05 /* Build configuration list for PBXNativeTarget "BloodBankAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				8BE79E15203E5B760069FA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BE79E16203E5B760069FA05 /* Build configuration list for PBXNativeTarget "BloodBankAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +559,7 @@
 				8BE79E18203E5B760069FA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
